@@ -4,6 +4,7 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 import Project from './routes/Project';
 import { Route, Routes } from 'react-router-dom';
+import Admin from './routes/Admin';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/project' element={<Project/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/admin' element={<Admin/>}/>
 
       </Routes>
     </>
